@@ -1,0 +1,318 @@
+/*---------------------------------------------------*/
+/*	05) BENY ABOUT
+/*---------------------------------------------------*/
+
+.beny_tm_about{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	background-color: black;
+	padding: 120px 0px 102px 0px;
+}
+.beny_tm_title_holder{
+	width: 100%;
+	max-width: 680px;
+	height: auto;
+	clear: both;
+	float: left;
+}
+.beny_tm_title_holder span{
+	display: inline-block;
+	position: relative;
+	color: #D6002F;
+	font-weight: 500;
+	font-size: 16px;
+	margin-bottom: 12px;
+}
+.beny_tm_title_holder span:before{
+	position: absolute;
+	content: "";
+	width: 40px;
+	height: 1px;
+	background-color: #D6002F;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 100%;
+	margin-left: 10px;
+}
+.beny_tm_title_holder h3{
+	font-size: 60px;
+	font-weight: 700;
+	color: white;
+	margin-bottom: 15px;
+}
+.beny_tm_about .about_inner{
+	width: 100%;
+	height: auto;
+	clear: both;
+	display: flex;
+	align-items: center;
+	padding-top: 60px;
+	margin-bottom: 125px;
+}
+.beny_tm_about .about_inner .left{
+	width: 50%;
+	position: relative;
+	margin-right: 50px;
+}
+.beny_tm_about .about_inner .left img{
+	opacity: 0;
+	min-width: 100%;
+}
+.beny_tm_about .about_inner .left .image{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:center; 
+	border-radius: 8px;
+}
+.beny_tm_about .about_inner .right{
+	width: 50%;
+	padding-left: 50px;
+}
+.beny_tm_about .short{
+	width: 100%;
+	float: left;
+	border-bottom: 1px solid #CBD3D9;
+	padding-bottom: 20px;
+}
+.beny_tm_about .short h3{
+	font-size: 40px;
+	font-weight: 600;
+	color: #0F172A;
+	margin-bottom: 22px;
+}
+.beny_tm_about .short p{
+	font-size: 16px;
+}
+.beny_tm_about .extra{
+	width: 100%;
+	float: left;
+	padding-top: 23px;
+}
+.beny_tm_about .extra .title{
+	color: #0F172A;
+	font-size: 24px;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+.beny_tm_about .list{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	margin-bottom: 20px;
+}
+.beny_tm_about .list ul{
+	margin: 0px 0px 0px -20px;
+	list-style-type: none;
+}
+.beny_tm_about .list ul li{
+	margin: 0px 0px 14px 0px;
+	width: 50%;
+	float: left;
+	padding-left: 20px;
+}
+.beny_tm_about .list ul li p{
+	color: #0f172a;
+	font-size: 16px;
+	font-weight: 500;
+}
+.beny_tm_about .list ul li p span{
+	color: #7e7e7e;
+	font-weight: 400;
+}
+
+
+/*---------------------------------------------------*/
+/*	06) BENY RESUME
+/*---------------------------------------------------*/
+
+.beny_tm_resume{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+}
+.beny_tm_resume .main_title{
+	width: 100%;
+	float: left;
+	margin-bottom: 75px;
+}
+.beny_tm_resume .main_title h3{
+	font-size: 40px;
+	font-weight: 700;
+	color: #0F172A;
+	text-align: center;
+}
+.beny_tm_resume .resume_inner{
+	width: 100%;
+	height: auto;
+	clear: both;
+	display: flex;
+}
+.beny_tm_resume .resume_inner .skills{
+	width: 50%;
+	padding-right: 125px;
+}
+.beny_tm_resume .resume_title{
+	width: 100%;
+	float: left;
+	position: relative;
+	overflow: hidden;
+}
+.beny_tm_resume .resume_title .svg{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 0px;
+	width: 30px;
+	height: 30px;
+	fill: none;
+	margin-top: -2px;
+}
+.beny_tm_resume .resume_title span{
+	display: inline-block;
+	position: relative;
+	text-transform: uppercase;
+	font-size: 30px;
+	color: #0F172A;
+	font-weight: 600;
+	padding-left: 60px;
+}
+.beny_tm_resume .resume_title span:before{
+	position: absolute;
+	content: "";
+	width: 1000px;
+	height: 1px;
+	background-color: #7E7E7E;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 100%;
+	margin-left: 20px;
+}
+.tokyo_progress{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	padding-top: 50px;
+}
+.progress_inner{
+	width:100%;
+	margin-bottom:26px;
+}
+.progress_inner:last-child{
+	margin-bottom: 0px;
+}
+.progress_inner > span{
+	margin:0px 0px 4px 0px;
+	display:block;
+	text-align:left;
+	position: relative;
+}
+.progress_inner span.label{
+	opacity: 0;
+	transform: translateY(10px);
+	display: block;
+	color: #0F172A;
+	font-family: "Poppins";
+	font-size: 16px;
+	font-weight: 400;
+	
+	-webkit-transition: all .5s ease;
+	   -moz-transition: all .5s ease;
+	    -ms-transition: all .5s ease;
+	     -o-transition: all .5s ease;
+	        transition: all .5s ease;
+}
+.progress_inner span.label.opened{
+	opacity: 1;
+	transform: translateY(0px);
+}
+.progress_inner span.number{
+	float: right;
+	position: absolute;
+	right: 100%;
+	top: 50%;
+	transform: translateY(-50%);
+	transition: all 2s cubic-bezier(0.165, 0.840, 0.440, 1.000);  /* IE 10+ */
+	color: #7E7E7E;
+	font-family: "Poppins";
+	font-size: 16px;
+}
+.progress_inner .background{
+	background:#E2E2E2;
+	width:100%;
+	min-width:100%;
+	position:relative;
+	height:6px;
+	border-radius: 18px;
+}
+.progress_inner .background .bar_in{
+	height:100%;
+	background:#D6002F;
+	width:0px;
+	overflow:hidden;
+	border-radius: 18px;
+}
+.progress_inner .background .bar{
+	width:0px;
+	height:100%;
+}
+.progress_inner .background .bar.open{
+	-webkit-animation: wow 2s cubic-bezier(0.165, 0.840, 0.440, 1.000);  /* Safari 4+ */
+	-moz-animation:    wow 2s cubic-bezier(0.165, 0.840, 0.440, 1.000);  /* Fx 5+ */
+	animation:         wow 2s cubic-bezier(0.165, 0.840, 0.440, 1.000);  /* IE 10+ */
+	width:100%;	
+}
+
+@-webkit-keyframes wow {0%{ width:0%; } 100%{ width:100%; }}
+@-moz-keyframes wow {0%{ width:0%; } 100%{ width:100%; }}
+@keyframes wow {0%{ width:0%; } 100%{ width:100%; }}
+
+.beny_tm_resume .education{
+	width: 50%;
+	padding-left: 125px;
+}
+.beny_tm_resume .edu_list{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	padding-top: 50px;
+}
+
+/*---------------------------------------------------*/
+/*	14) BENY MEDIA QUERIES (FOR SMALL DEVIVES)
+/*---------------------------------------------------*/
+
+
+@media (max-width: 1040px) {
+	body{font-size: 16px;}
+	.beny_tm_topbar{display: none;}
+	.beny_tm_mobile_menu{display: block;}
+	.beny_tm_hero .content .job{font-size: 60px;}
+	.beny_tm_hero .social{display: none;}
+	.beny_tm_hero .mobile_social{display: block;}
+	.beny_tm_hero .content .text{margin-bottom: 25px;}
+	.beny_tm_button a{font-size: 16px;padding: 11px 30px;}
+	.beny_tm_title_holder h3{font-size: 50px;}
+	.beny_tm_about .about_inner{flex-direction: column;align-items: baseline;}
+	.beny_tm_about .about_inner .left{width: 100%;padding: 0px;margin-bottom: 50px;}
+	.beny_tm_about .about_inner .right{width: 100%;padding: 0px;}
+
+}
+@media (max-width: 768px) {
+	.beny_tm_hero .content .job{font-size: 35px;}
+	.beny_tm_title_holder h3{font-size: 30px;}
+	.beny_tm_about .list ul{margin: 0px;}
+	.beny_tm_about .list ul li{width: 100%;padding-left: 0px;}
+
+}

@@ -1,0 +1,44 @@
+.banner-text h5{
+    font-size: 46px;
+    margin: 10px 0;
+    font-weight: 700;
+    color: #09b5b5;
+}
+.banner-text  h4,p{
+    color: #fff;
+    padding-left: 0;
+}
+.banner-text h3{
+    color: #fff;
+}
+
+.banner-image {
+    width: 300px;
+    margin-top: -80px;
+}
+.banner-image img{
+    height: 350px;
+}
+.social-icon a{
+    text-decoration: none;
+    margin-right: 15px;
+    color: #09b5b5;
+    cursor: pointer;
+    font-size: 31px;
+}
+
+.primary-button{
+    background-color: #09b5b5;
+    color: #fff;
+    border-color: #09b5b5;
+    margin: 25px 0;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    padding: 8px 20px;
+
+}
+.primary-button:hover{
+    background-color: #091736;
+    color: #09b5b5;
+}

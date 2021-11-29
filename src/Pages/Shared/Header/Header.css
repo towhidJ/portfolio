@@ -1,0 +1,25 @@
+.menu a{
+    color: #fff !important;
+    text-decoration: none;
+}
+.menu li{
+    margin-right: 25px;
+}
+.header{
+    background-color: darkslategray;
+}
+
+.resume{
+    background-color: #09b5b5;
+    border: 1px solid #09b5b5;
+    padding: 7px 20px;
+    border-radius: 4px;
+}
+.resume:hover{
+    background-color: darkslategray;
+}
+.mobile-expand-menu{
+    background-color: darkslategray !important;
+    font-size: 31px;
+}
+

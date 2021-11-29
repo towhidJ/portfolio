@@ -374,7 +374,162 @@
 	float: left;
 	padding-top: 60px;
 }
+/*---------------------------------------------------*/
+/*	11) towhid CONTACT
+/*---------------------------------------------------*/
 
+.towhid_tm_contact{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	margin-bottom: 120px;
+	padding-top: 120px;
+}
+.towhid_tm_contact .contact_inner{
+	width: 100%;
+	height: auto;
+	clear: both;
+	display: flex;
+}
+.towhid_tm_contact .left{
+	width: 50%;
+	padding-right: 100px;
+}
+.towhid_tm_contact .short_list{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left; 
+	padding-top: 45px;
+}
+.towhid_tm_contact .short_list ul{
+	margin: 0px;
+	list-style-type: none;
+}
+.towhid_tm_contact .short_list ul li{
+	margin: 0px 0px 30px 0px;
+	width: 100%;
+	float: left;
+	position: relative;
+	padding-left: 42px;
+}
+.towhid_tm_contact .short_list ul li:last-child
+{margin-bottom: 0px;
+}
+.towhid_tm_contact .short_list ul li .svg{
+	width: 25px;
+	height: 25px;
+	fill: none;
+	position: absolute;
+	left: 0px;
+	top: 2px;
+}
+.towhid_tm_contact .short_list ul li a{
+	text-decoration: none;
+	color: #7E7E7E;
+}
+.towhid_tm_contact .right{
+	width: 50%;
+	padding-left: 100px;
+}
+.towhid_tm_contact .right .title{
+	widows: 100%;
+	float:left; 
+	margin-bottom: 40px;
+}
+.towhid_tm_contact .right .title p{
+	font-size: 25px;
+	line-height: 1.6;
+}
+.towhid_tm_contact .right .title span{
+	color: #0F172A;
+	font-weight: 600;
+}
+
+.towhid_tm_contact .fields{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+}
+.towhid_tm_contact .first_row{
+	width: 100%;
+	margin-bottom: 53px;
+}
+.towhid_tm_contact .second{
+	width: 100%;
+	display: flex;
+	margin-bottom: 58px;
+}
+.towhid_tm_contact .second > div{
+	width: 50%;
+}
+.towhid_tm_contact .second > div:first-child{
+	padding-right: 15px;
+}
+.towhid_tm_contact .second > div:last-child{
+	padding-left: 15px;
+}
+.towhid_tm_contact .third{
+	width: 100%;
+	margin-bottom: 30px;
+}
+.towhid_tm_contact input{
+	width: 100%;
+	height: 50px;
+	border: none;
+	border-bottom: 1px solid #CBD3D9;
+	background-color: transparent;
+	font-size: 16px;
+	color: #7E7E7E;
+	font-weight: 500;
+	font-family: 'DM Sans', sans-serif;
+	padding-left: 0px !important;
+	padding-bottom: 15px;
+}
+.towhid_tm_contact input:focus{
+	outline: none;
+	border-bottom-color: #0F172A;
+	background-color: transparent;
+}
+.towhid_tm_contact textarea{
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #CBD3D9;
+	background-color: transparent;
+	font-size: 16px;
+	color: #7E7E7E;
+	font-weight: 500;
+	font-family: 'DM Sans', sans-serif;
+	height: 44px;
+	resize: none;
+	padding-left: 0px !important;
+	padding-bottom: 16px;
+}
+.towhid_tm_contact textarea:focus{
+	outline: none;
+	border-bottom-color: #0F172A;
+	background-color: transparent;
+}
+.towhid_tm_contact .empty_notice{
+	color: #F52225;
+	margin-bottom: 7px;
+	display: none;
+	text-align: left;
+	font-weight: 500;
+}
+.towhid_tm_contact .contact_error{
+	color: #F52225;
+	text-align: left;
+	font-weight: 500;
+}
+.towhid_tm_contact .returnmessage{
+	color:#3A00FF;
+	margin-bottom: 7px;
+	text-align: left;
+	font-weight: 500;
+}
 /*---------------------------------------------------*/
 /*	14) towhid MEDIA QUERIES (FOR SMALL DEVIVES)
 /*---------------------------------------------------*/
@@ -397,6 +552,9 @@
 	.towhid_tm_resume .resume_inner .skills{width: 100%;padding: 0px;margin-bottom: 75px;}
 	.towhid_tm_resume .education{width: 100%;padding: 0px;}
 	.towhid_tm_resume .resume_title span:before{display: none;}
+	.towhid_tm_contact .contact_inner{flex-direction: column;align-items: baseline;}
+	.towhid_tm_contact .left{width: 100%;padding: 0px;margin-bottom: 50px;}
+	.towhid_tm_contact .right{width: 100%;padding: 0px;}
 
 }
 @media (max-width: 768px) {
@@ -404,5 +562,10 @@
 	.towhid_tm_title_holder h3{font-size: 30px;}
 	.towhid_tm_about .list ul{margin: 0px;}
 	.towhid_tm_about .list ul li{width: 100%;padding-left: 0px;}
+	.towhid_tm_contact .right .title p{font-size: 22px;}
+	.towhid_tm_contact .second{flex-direction: column;align-items: baseline;}
+	.towhid_tm_contact .second > div{width: 100%;}
+	.towhid_tm_contact .second > div:first-child{padding: 0px;}
+	.towhid_tm_contact .second > div:last-child{padding: 0px;}
 
 }

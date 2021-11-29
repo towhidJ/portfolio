@@ -103,14 +103,13 @@ const Project = (props) => {
                                     <button>Node.js</button>
                                     <button>Express.js</button>
                                     <button>MongoDB</button>
-                                    <button>Stripe</button>
-                                    <button>Bootstrap</button>
+                                    <button>TailwindCSS</button>
                                     <button>Firebase</button>
                                 </div>
                                 <div className="social-icon project-icon my-3">
                                     <a href={liveLink} target="blank">
                                         <span>Live</span>
-                                        <i class="fab fa-github"></i>
+                                        <i class="fab fa-edge-legacy"></i>
                                     </a>
                                     <a href={github} target="blank">
                                         <span>GitHub</span>
@@ -132,7 +131,7 @@ const Project = (props) => {
                                 <div className="social-icon project-icon my-3">
                                     <a href={liveLink} target="blank">
                                         <span>Live</span>
-                                        <i class="fab fa-github"></i>
+                                        <i class="fab fa-edge-legacy"></i>
                                     </a>
                                     <a href={github} target="blank">
                                         <span>GitHub</span>
@@ -149,11 +148,13 @@ const Project = (props) => {
                                     <button>MongoDB</button>
                                     <button>Bootstrap</button>
                                     <button>Firebase</button>
+                                    <button>Material UI</button>
+                                    <button>Stripe</button>
                                 </div>
                                 <div className="social-icon project-icon my-3">
                                     <a href={liveLink} target="blank">
                                         <span>Live</span>
-                                        <i class="fab fa-github"></i>
+                                        <i class="fab fa-edge-legacy"></i>
                                     </a>
                                     <a href={github} target="blank">
                                         <span>GitHub</span>

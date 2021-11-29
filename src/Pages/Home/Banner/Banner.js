@@ -1,8 +1,8 @@
 import React from "react";
 import Bounce from "react-reveal/Bounce";
 import Slide from "react-reveal/Slide";
-import { Link } from "react-router-dom";
 import Typewriter from "typewriter-effect";
+import towhid from "../../../images/towhid.png";
 import "./Banner.css";
 
 const Banner = () => {
@@ -38,38 +38,34 @@ const Banner = () => {
 
                     <div className="social-icon">
                         <a
-                            href="mailto:hasanrana178821@gmail.com"
+                            href="mailto:towhidulislamcse@gmail.com"
                             target="blank"
                         >
                             {" "}
                             <i className="far fa-envelope"></i>
                         </a>
                         <a
-                            href="https://www.linkedin.com/in/hasan-rana-091803210/"
+                            href="https://www.linkedin.com/in/towhidcse/"
                             target="blank"
                         >
                             {" "}
-                            <i className="far fa-github"></i>
+                            <i class="fab fa-linkedin"></i>
                         </a>
-                        <a href="https://github.com/hasanrana21" target="blank">
+                        <a href="https://github.com/towhidJ" target="blank">
                             {" "}
-                            <i class="far fa-github"></i>
+                            <i class="fab fa-github"></i>
                         </a>
                     </div>
 
-                    <Link to="/contact">
+                    <a href="#contact">
                         <button className="btn primary-button">HIRE ME</button>
-                    </Link>
+                    </a>
                 </div>
             </Bounce>
 
             <Slide bottom>
                 <div className="col-md-7 banner-image">
-                    <img
-                        className="img-fluid"
-                        src="https://i.ibb.co/8czgD2W/portfolio-Edited.png"
-                        alt=""
-                    />
+                    <img className="img-fluid" src={towhid} alt="" />
                 </div>
             </Slide>
         </div>

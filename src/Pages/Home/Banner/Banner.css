@@ -2,7 +2,7 @@
     font-size: 46px;
     margin: 10px 0;
     font-weight: 700;
-    color: #09b5b5;
+    color: #f0bb0c;
 }
 .banner-text  h4,p{
     color: #fff;
@@ -22,15 +22,15 @@
 .social-icon a{
     text-decoration: none;
     margin-right: 15px;
-    color: #09b5b5;
+    color: #b2b509;
     cursor: pointer;
     font-size: 31px;
 }
 
 .primary-button{
-    background-color: #09b5b5;
-    color: #fff;
-    border-color: #09b5b5;
+    background-color: #facf0e;
+    color: rgb(0, 0, 0);
+    border-color: #facf0e;
     margin: 25px 0;
     font-size: 17px;
     font-weight: 600;
@@ -39,6 +39,6 @@
 
 }
 .primary-button:hover{
-    background-color: #091736;
-    color: #09b5b5;
+    background-color: #09173600;
+    color: #d8e707;
 }

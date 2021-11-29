@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 import "./Header.css";
 const Header = () => {
     return (
-        <div>
-            <nav className="navbar px-3 py-0 navbar-expand-lg header fixed">
+        <div className="mb-5">
+            <nav className="navbar px-3 py-0 navbar-expand-lg header fixed-top">
                 <div className="container-fluid">
                     <Link to="/" className="navbar-brand">
                         <h1 className="logo">Ti</h1>
@@ -39,31 +39,29 @@ const Header = () => {
                                     </Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link to="/aboutMe" className="nav-link">
+                                    <a href="#about" className="nav-link">
                                         About
-                                    </Link>
+                                    </a>
                                 </li>
                                 <li className="nav-item">
-                                    <Link
-                                        to="/projectsData"
-                                        className="nav-link"
-                                    >
+                                    <Link to="/projects" className="nav-link">
                                         Projects
                                     </Link>
                                 </li>
+
                                 <li className="nav-item">
-                                    <Link to="/blogs" className="nav-link">
-                                        Blogs
-                                    </Link>
+                                    <a href="#education" className="nav-link">
+                                        Education
+                                    </a>
                                 </li>
                                 <li className="nav-item">
-                                    <Link to="/contact" className="nav-link">
+                                    <a href="#contact" className="nav-link">
                                         Contact
-                                    </Link>
+                                    </a>
                                 </li>
                                 <li className="nav-item mt-2 mb-5 mb-sm-0">
                                     <a
-                                        href="https://drive.google.com/uc?export=download&id=1cW9y6nEEUDpKZ_daSHALeU-JF3gWNA51"
+                                        href="https://drive.google.com/u/2/uc?id=18QQL47b662IUSwf-DpkFcv_7n9qccqcj&export=download"
                                         download
                                         className="resume"
                                     >

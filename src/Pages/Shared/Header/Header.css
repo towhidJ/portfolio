@@ -2,16 +2,19 @@
     color: #fff !important;
     text-decoration: none;
 }
+.menu a:hover{
+    color: lightgoldenrodyellow !important;
+}
 .menu li{
     margin-right: 25px;
 }
 .header{
-    background-color: darkslategray;
+    background-color: rgb(0, 0, 0);
 }
 
 .resume{
-    background-color: #09b5b5;
-    border: 1px solid #09b5b5;
+    background-color: #39889c;
+    border: 1px solid #c3e4e4;
     padding: 7px 20px;
     border-radius: 4px;
 }

@@ -1,19 +1,21 @@
 import Slide from "react-reveal/Slide";
+import award from "../../../images/svg/award.svg";
+import briefcase from "../../../images/svg/briefcase.svg";
 import towhid from "../../../images/towhid.png";
 import "./About.css";
 const About = () => {
     return (
         <>
-            <div className=" towhid_tm_about">
+            <div className=" towhid_tm_about" id="about">
                 <div className="container ">
                     <div className="towhid_tm_title_holder">
                         <span>About Me</span>
                         <h3>About Me</h3>
-                        <p>
+                        {/* <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit. Amet, egestas. Id fermentum nullam ipsum
                             massa.
-                        </p>
+                        </p> */}
                     </div>
 
                     <div className="about_inner">
@@ -22,13 +24,19 @@ const About = () => {
                         </div>
                         <div className="right">
                             <div className="short">
-                                <h3>Hi There!</h3>
+                                <h3>Hi There! ✋✋</h3>
                                 <p>
-                                    I'm a Monalisa hug web designer &amp;
-                                    front‑end developer focused on crafting
-                                    clean &amp; user‑friendly experiences, I am
-                                    passionate about building excellent software
-                                    that improves the lives of those around me.
+                                    This is Towhidul Islam.I'm Jr. Front End
+                                    Developer.I have knowledge of JavaScript,
+                                    ES6, React.JS, Node.JS,ASP.NET,MSSQL Mongo
+                                    Db, HTML, CSS, Bootstrap, Firebase, Heroku,
+                                    and Netlify. I also have knowledge of
+                                    Communication and Quick Learning Skills.
+                                    When I was learning web development I always
+                                    tried to do those things carefully. If I
+                                    have made any mistake in any project I solve
+                                    it easily because I have the Patience and
+                                    problem-solving experience.
                                 </p>
                             </div>
                             <div className="extra">
@@ -84,7 +92,10 @@ const About = () => {
                                     </ul>
                                 </div>
                                 <div className=" color">
-                                    <a href={towhid} download>
+                                    <a
+                                        href="https://drive.google.com/u/2/uc?id=18QQL47b662IUSwf-DpkFcv_7n9qccqcj&export=download"
+                                        download
+                                    >
                                         <button className="ms-2 towhid_btn btn">
                                             Download Cv
                                         </button>
@@ -106,7 +117,7 @@ const About = () => {
                                 <div className="resume_title">
                                     <img
                                         className="svg"
-                                        src="img/svg/briefcase.svg"
+                                        src={briefcase}
                                         alt=""
                                     />
                                     <span>Skills</span>
@@ -203,13 +214,10 @@ const About = () => {
                                 className="education  "
                                 data-wow-duration="1.2s"
                                 data-wow-delay="0.3s"
+                                id="education"
                             >
                                 <div className="resume_title">
-                                    <img
-                                        className="svg"
-                                        src="img/svg/award.svg"
-                                        alt=""
-                                    />
+                                    <img className="svg" src={award} alt="" />
                                     <span>Education</span>
                                 </div>
                                 <Slide right>

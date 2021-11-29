@@ -1,0 +1,40 @@
+[{
+    "id": 1,
+    "project_name": "ShopByte Health Care(Full Stack)",
+    "project_details": "An authentication single-page photography web app with a dashboard where people are able to book services with payment, see their booking, and also can review our services. On other hand, an Admin can see all the bookings, change the status of bookings, able to make another admin, and can delete the services."
+    ,
+    "image1": "https://i.ibb.co/DGTkk05/medi1.png",
+    "image2": "https://i.ibb.co/rb687gM/medi4.png",
+    "image3": "https://i.ibb.co/C0K9DTC/medi5.png",
+    "image4": "https://i.ibb.co/VLvhZZR/medi3.png",
+    "image5": "https://i.ibb.co/B2hH01L/medi2.png"
+  }, {
+    "id": 2,
+    "project_name": "Travel Agency Website (Full-Stack)",
+    "project_details": "A React-based web application with authentication. In this web application, users can buy laptops by giving their information. And can see all their orders. On the other side, the admin has a dashboard and is able to add and delete the product.",
+    "image1": "https://i.ibb.co/ysyMHcS/travel1.png",
+    "image2": "https://i.ibb.co/0MBZ37R/travel2.png",
+    "image3": "https://i.ibb.co/dQc7mbk/travel3.png",
+    "image4": "https://i.ibb.co/19q4jHN/travel4.png",
+    "image5": "https://i.ibb.co/dQc7mbk/travel3.png"
+  }, {
+    "id": 3,
+    "project_name": "Winter Care Shop",
+    "project_details": "Develop an authenticate Single page web app where people can add to cart food with their information. Here the admin has a dashboard from which the admin can add any type of food ‍and can see all the ordered food of users.",
+    "image1": "https://i.ibb.co/SBZVLyX/winter1.png",
+    "image2": "https://i.ibb.co/GT9wPPQ/winter2.png",
+    "image3": "https://i.ibb.co/h9dW6bN/winter3.png",
+    "image4": "https://i.ibb.co/h9dW6bN/winter1.png",
+    "image5": "https://i.ibb.co/Fhz2znv/winter4.png"
+  }]
+
+
+
+
+
+
+
+
+
+
+

@@ -1,6 +1,6 @@
 import Slide from "react-reveal/Slide";
+import towhid from "../../../images/towhid.png";
 import "./About.css";
-
 const About = () => {
     return (
         <>
@@ -17,8 +17,8 @@ const About = () => {
                     </div>
 
                     <div className="about_inner">
-                        <div className="left">
-                            <img src="" alt="" />
+                        <div className="left border-1 border-blue">
+                            <img className="img-fluid " src={towhid} alt="a" />
                         </div>
                         <div className="right">
                             <div className="short">
@@ -84,7 +84,7 @@ const About = () => {
                                     </ul>
                                 </div>
                                 <div className=" color">
-                                    <a href="img/about/1.jpg" download>
+                                    <a href={towhid} download>
                                         <button className="ms-2 towhid_btn btn">
                                             Download Cv
                                         </button>

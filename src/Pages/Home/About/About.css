@@ -72,15 +72,15 @@
 	position: relative;
 	margin-right: 50px;
 }
-.towhid_tm_about .about_inner .left img{
+/* .towhid_tm_about .about_inner .left img{
 	opacity: 0;
 	min-width: 100%;
-}
-.towhid_tm_about .about_inner .left .image{
+} */
+.towhid_tm_about .about_inner .left .img{
 	position: absolute;
-	top: 0px;
-	bottom: 0px;
-	left: 0px;
+	top: 50px;
+	bottom: 50px;
+	left: 50px;
 	right: 0px;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -367,7 +367,13 @@
 }
 
 
-
+.service_list{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	padding-top: 60px;
+}
 
 /*---------------------------------------------------*/
 /*	14) towhid MEDIA QUERIES (FOR SMALL DEVIVES)

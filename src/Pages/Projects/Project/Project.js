@@ -1,9 +1,33 @@
 import React from "react";
+import Slide from "react-reveal/Slide";
+import "swiper/components/navigation/navigation.min.css";
+import "swiper/components/pagination/pagination.min.css";
+// import Swiper core and required modules
+import SwiperCore, { Autoplay, Navigation, Pagination } from "swiper/core";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+// Import Swiper styles
+import "swiper/swiper.min.css";
+import "./Project.css";
+// install Swiper modules
+SwiperCore.use([Autoplay, Pagination, Navigation]);
 
-const Projects = () => {
+const Project = (props) => {
+    const {
+        id,
+        project_name,
+        project_details,
+        image1,
+        image2,
+        image3,
+        image4,
+        image5,
+        liveLink,
+        github,
+    } = props.project;
     return (
         <>
-            <div className="row project-section align-items-center container-fluid pt-5">
+            <div className="row container mx-auto project-section align-items-center pt-5 ">
                 <Slide left>
                     <div className="col-md-6 project-slider container-fluid">
                         <Swiper
@@ -43,6 +67,22 @@ const Projects = () => {
                                     alt=""
                                 />{" "}
                             </SwiperSlide>
+                            <SwiperSlide>
+                                {" "}
+                                <img
+                                    className="img-fluid"
+                                    src={image4}
+                                    alt=""
+                                />{" "}
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                {" "}
+                                <img
+                                    className="img-fluid"
+                                    src={image5}
+                                    alt=""
+                                />{" "}
+                            </SwiperSlide>
                         </Swiper>
                     </div>
                 </Slide>
@@ -68,21 +108,13 @@ const Projects = () => {
                                     <button>Firebase</button>
                                 </div>
                                 <div className="social-icon project-icon my-3">
-                                    <a
-                                        href="https://flash-shoots-photography-fullstack.netlify.app/"
-                                        target="blank"
-                                    >
+                                    <a href={liveLink} target="blank">
                                         <span>Live</span>
-                                        <FontAwesomeIcon
-                                            icon={faExternalLinkAlt}
-                                        />
+                                        <i class="fab fa-github"></i>
                                     </a>
-                                    <a
-                                        href="https://github.com/hasanrana21/flash-shoots-photograpy-2"
-                                        target="blank"
-                                    >
+                                    <a href={github} target="blank">
                                         <span>GitHub</span>
-                                        <FontAwesomeIcon icon={faGithub} />
+                                        <i class="fab fa-github"></i>
                                     </a>
                                 </div>
                             </div>
@@ -98,21 +130,13 @@ const Projects = () => {
                                     <button>Firebase</button>
                                 </div>
                                 <div className="social-icon project-icon my-3">
-                                    <a
-                                        href="https://laptop-village-fullstack.netlify.app/"
-                                        target="blank"
-                                    >
+                                    <a href={liveLink} target="blank">
                                         <span>Live</span>
-                                        <FontAwesomeIcon
-                                            icon={faExternalLinkAlt}
-                                        />
+                                        <i class="fab fa-github"></i>
                                     </a>
-                                    <a
-                                        href="https://github.com/hasanrana21/laptop-villages-client-2"
-                                        target="blank"
-                                    >
+                                    <a href={github} target="blank">
                                         <span>GitHub</span>
-                                        <FontAwesomeIcon icon={faGithub} />
+                                        <i class="fab fa-github"></i>
                                     </a>
                                 </div>
                             </div>
@@ -127,21 +151,13 @@ const Projects = () => {
                                     <button>Firebase</button>
                                 </div>
                                 <div className="social-icon project-icon my-3">
-                                    <a
-                                        href="https://dining-out-fullstack-by-hasan.netlify.app/"
-                                        target="blank"
-                                    >
+                                    <a href={liveLink} target="blank">
                                         <span>Live</span>
-                                        <FontAwesomeIcon
-                                            icon={faExternalLinkAlt}
-                                        />
+                                        <i class="fab fa-github"></i>
                                     </a>
-                                    <a
-                                        href="https://github.com/hasanrana21/dining-out-hot-onion--full-stack-project"
-                                        target="blank"
-                                    >
+                                    <a href={github} target="blank">
                                         <span>GitHub</span>
-                                        <FontAwesomeIcon icon={faGithub} />
+                                        <i class="fab fa-github"></i>
                                     </a>
                                 </div>
                             </div>
@@ -153,4 +169,4 @@ const Projects = () => {
     );
 };
 
-export default Projects;
+export default Project;

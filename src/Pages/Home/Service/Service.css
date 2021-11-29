@@ -1,12 +1,12 @@
 .service_list .card{
-    background-color:#191C26;
-    color:rgb(236, 203, 57);
+    background-color:darkslategrey;
+    color:aliceblue
 }
 
 .service_list .btn{
     color:white;
 }
 .service_list .btn:hover{
-    color:yellowgreen;
+    color:yellow;
     border: 1px solid green;
 }

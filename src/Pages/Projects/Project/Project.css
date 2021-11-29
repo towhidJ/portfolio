@@ -1,0 +1,175 @@
+.project-section{
+    margin-bottom: 20px;
+}
+.technology-tag button{
+    background-color: #0a0a23;
+    color: #fff;
+    border: none;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    padding: 7px 15px;
+    border-radius: 6px;
+    font-size: 14px;
+}
+.project-slider{
+    border: 10px solid #9da3a3;
+    padding: 0;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+.project-slider img{
+    width: 100%;
+    height: 330px;
+}
+.project-info{
+    background-color: #78a183;
+    padding: 15px 35px;
+    margin-left: -45px;
+    z-index: 10;
+    border-radius: 7px;
+    margin-top: 25px;
+}
+.slide{
+    margin-right: 0;
+}
+.swiper-button-prev::after{
+    padding-left: 70px;
+}
+.swiper-button-next::after{
+    padding-right: 70px;
+}
+
+.project-icon a{
+    background-color: rgb(220, 255, 213);
+    padding: 8px 15px;
+    border-radius: 6px;
+    font-size: 18px;
+    transition: .6s;
+}
+.project-icon a:hover{
+    background-color: #ff2c37;
+    color: lightgray;
+}
+.project-icon span{
+    margin-right: 7px;
+}
+.heading{
+    color: #fff;
+}
+.heading span{
+    color: #ffef0e;
+    font-size: 41px;
+    font-weight: 700;
+    font-family: 'Graduate', cursive;
+
+}
+
+
+
+
+/*// Responsive //*/
+@media (max-width: 767.98px) { 
+    .project-slider{
+        margin: 0 auto;
+        width: 90%;
+    }
+    .project-info{
+        margin: -15px auto;
+        width: 92%;
+        z-index: -30;
+    }  
+ }
+
+ @media (max-width: 575.98px) { 
+    .project-slider{
+        margin-left: 45px;
+    }
+    .project-slider img{
+        width: 100%;
+        height: 285px;
+    }
+    .project-info{
+        width: 92%;
+        margin-left: 42px;
+        padding: 20px 20px;
+    }
+    .project-info h4{
+        font-size: 10px;
+    }
+    .project-info span, p{
+        font-size: 8px;
+        margin-bottom: 5px;
+    }
+    .project-info button{
+        font-size: 12px;
+    }
+    .project-info a{
+        font-size: 14px;
+    }
+    .project-section{
+        padding-top: 10px !important;
+        margin-bottom: 40px;
+        margin-left: -30px;
+    }
+    .heading{
+        font-size: 16px;
+        margin-top: 40px !important;
+        padding-top: 0 !important;
+    }
+    .heading span{
+        font-size: 19px;
+    }
+    .banner-image{
+        margin-top: 25px;
+    }
+    .banner-text h5{
+        font-size: 31px;
+    }
+    .banner-text  h4, h3{
+        font-size: 16px;
+    }
+    .banner-text  p{
+        font-size: 10px;
+    }
+    .social-icon a{
+        font-size: 21px;
+    }
+    .primary-button{
+        margin: 12px 0;
+        font-size: 12px;
+        padding: 4px 10px;
+    }
+    .banner-image {
+        width: 150px;
+        margin-top: 15px;
+        margin-left: 45px;
+    }
+    .banner-image img{
+        height: 160px;
+        width: 200px;
+    }
+    .project-slider img{
+        width: 100%;
+        height: 130px;
+    }
+    .technology-tag button{
+        margin-right: 9px;
+        margin-bottom: 4px;
+        padding: 4px 8px;
+        border-radius: 3px;
+        font-size: 9px;
+    }
+    .project-icon{
+        margin: 7px 0px !important;
+    }
+    .project-icon a{
+        padding: 4px 9px;
+        border-radius: 4px;
+        font-size: 12px;
+    }
+    .project-icon span{
+        font-size: 11px;
+    }
+
+
+  }

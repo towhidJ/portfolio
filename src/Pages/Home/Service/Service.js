@@ -4,7 +4,7 @@ const Service = () => {
     return (
         <>
             <div className="mt-5 p-5">
-                <div class="container">
+                <div class="">
                     <div class="towhid_tm_title_holder py-5">
                         <span className="mt-5">Services</span>
                         <h3>I provide wide range of digital services</h3>
@@ -34,7 +34,7 @@ const Service = () => {
                                 <div class="card text-center ">
                                     <h1
                                         className=" py-3 fw-bolder "
-                                        style={{ color: "blue" }}
+                                        style={{ color: "aliceblue" }}
                                     >
                                         <i class="fab fa-react"></i>
                                     </h1>
@@ -72,7 +72,7 @@ const Service = () => {
                                 <div class="card text-center ">
                                     <h1
                                         className=" py-3 fw-bolder "
-                                        style={{ color: "blue" }}
+                                        style={{ color: "aliceblue" }}
                                     >
                                         <i class="fab fa-react"></i>
                                     </h1>
@@ -91,6 +91,7 @@ const Service = () => {
                     </div>
                 </div>
             </div>
+            <br />
         </>
     );
 };

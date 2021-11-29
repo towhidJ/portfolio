@@ -31,7 +31,7 @@
 	max-width: 680px;
 	height: auto;
 	clear: both;
-	float: left;
+	/* float: left; */
 }
 .towhid_tm_title_holder span{
 	display: inline-block;

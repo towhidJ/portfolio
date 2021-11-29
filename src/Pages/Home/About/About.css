@@ -1,23 +1,39 @@
 /*---------------------------------------------------*/
-/*	05) BENY ABOUT
+/*	05) towhid ABOUT
 /*---------------------------------------------------*/
-
-.beny_tm_about{
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #7e7e7e;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: #7e7e7e;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: #7e7e7e;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #7e7e7e;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color: #7e7e7e;
+}
+.towhid_tm_about{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
-	background-color: black;
+	background-color: #191C26;
 	padding: 120px 0px 102px 0px;
 }
-.beny_tm_title_holder{
+.towhid_tm_title_holder{
 	width: 100%;
 	max-width: 680px;
 	height: auto;
 	clear: both;
 	float: left;
 }
-.beny_tm_title_holder span{
+.towhid_tm_title_holder span{
 	display: inline-block;
 	position: relative;
 	color: #D6002F;
@@ -25,7 +41,7 @@
 	font-size: 16px;
 	margin-bottom: 12px;
 }
-.beny_tm_title_holder span:before{
+.towhid_tm_title_holder span:before{
 	position: absolute;
 	content: "";
 	width: 40px;
@@ -36,13 +52,13 @@
 	left: 100%;
 	margin-left: 10px;
 }
-.beny_tm_title_holder h3{
+.towhid_tm_title_holder h3{
 	font-size: 60px;
 	font-weight: 700;
 	color: white;
 	margin-bottom: 15px;
 }
-.beny_tm_about .about_inner{
+.towhid_tm_about .about_inner{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -51,16 +67,16 @@
 	padding-top: 60px;
 	margin-bottom: 125px;
 }
-.beny_tm_about .about_inner .left{
+.towhid_tm_about .about_inner .left{
 	width: 50%;
 	position: relative;
 	margin-right: 50px;
 }
-.beny_tm_about .about_inner .left img{
+.towhid_tm_about .about_inner .left img{
 	opacity: 0;
 	min-width: 100%;
 }
-.beny_tm_about .about_inner .left .image{
+.towhid_tm_about .about_inner .left .image{
 	position: absolute;
 	top: 0px;
 	bottom: 0px;
@@ -71,103 +87,118 @@
 	background-position:center; 
 	border-radius: 8px;
 }
-.beny_tm_about .about_inner .right{
+.towhid_tm_about .about_inner .right{
 	width: 50%;
 	padding-left: 50px;
 }
-.beny_tm_about .short{
+.towhid_tm_about .short{
 	width: 100%;
 	float: left;
-	border-bottom: 1px solid #CBD3D9;
+	border-bottom: 1px solid #e1e5e7;
 	padding-bottom: 20px;
 }
-.beny_tm_about .short h3{
+.towhid_tm_about .short h3{
 	font-size: 40px;
 	font-weight: 600;
-	color: #0F172A;
+	color: #4577ec;
 	margin-bottom: 22px;
 }
-.beny_tm_about .short p{
+.towhid_tm_about .short p{
 	font-size: 16px;
 }
-.beny_tm_about .extra{
+.towhid_tm_about .extra{
 	width: 100%;
 	float: left;
 	padding-top: 23px;
 }
-.beny_tm_about .extra .title{
-	color: #0F172A;
+.towhid_tm_about .extra .title{
+	color: #4577ec;
 	font-size: 24px;
 	font-weight: 600;
 	text-transform: uppercase;
 	margin-bottom: 20px;
 }
-.beny_tm_about .list{
+.towhid_tm_about .list{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 	margin-bottom: 20px;
 }
-.beny_tm_about .list ul{
+.towhid_tm_about .list ul{
 	margin: 0px 0px 0px -20px;
 	list-style-type: none;
 }
-.beny_tm_about .list ul li{
+.towhid_tm_about .list ul li{
 	margin: 0px 0px 14px 0px;
 	width: 50%;
 	float: left;
 	padding-left: 20px;
 }
-.beny_tm_about .list ul li p{
-	color: #0f172a;
+.towhid_tm_about .list ul li p{
+	color: #4577ec;
 	font-size: 16px;
 	font-weight: 500;
 }
-.beny_tm_about .list ul li p span{
-	color: #7e7e7e;
+.towhid_tm_about .list ul li p span{
+	color: #fff;
 	font-weight: 400;
 }
 
 
+.towhid_btn{
+    padding: 12px;
+    background:rgb(255, 72, 72);
+    font-size: 1.5rem ;
+    color: #fff;
+}
+.towhid_btn:hover{
+    padding: 12px;
+    background:rgb(0,0,0);
+    border:1px solid;
+    border-color:red;
+    font-size: 1.5rem ;
+    color: greenyellow;
+}
+
 /*---------------------------------------------------*/
-/*	06) BENY RESUME
+/*	06) towhid RESUME
 /*---------------------------------------------------*/
 
-.beny_tm_resume{
+.towhid_tm_resume{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 }
-.beny_tm_resume .main_title{
+.towhid_tm_resume .main_title{
 	width: 100%;
 	float: left;
 	margin-bottom: 75px;
 }
-.beny_tm_resume .main_title h3{
+.towhid_tm_resume .main_title h3{
 	font-size: 40px;
 	font-weight: 700;
-	color: #0F172A;
+	color: #fff;
 	text-align: center;
 }
-.beny_tm_resume .resume_inner{
+.towhid_tm_resume .resume_inner{
 	width: 100%;
 	height: auto;
 	clear: both;
 	display: flex;
 }
-.beny_tm_resume .resume_inner .skills{
+.towhid_tm_resume .resume_inner .skills{
 	width: 50%;
 	padding-right: 125px;
 }
-.beny_tm_resume .resume_title{
+.towhid_tm_resume .resume_title{
 	width: 100%;
 	float: left;
 	position: relative;
 	overflow: hidden;
 }
-.beny_tm_resume .resume_title .svg{
+.towhid_tm_resume .resume_title .svg{
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
@@ -177,26 +208,27 @@
 	fill: none;
 	margin-top: -2px;
 }
-.beny_tm_resume .resume_title span{
+.towhid_tm_resume .resume_title span{
 	display: inline-block;
 	position: relative;
 	text-transform: uppercase;
 	font-size: 30px;
-	color: #0F172A;
+	color: #fff;
 	font-weight: 600;
 	padding-left: 60px;
 }
-.beny_tm_resume .resume_title span:before{
+.towhid_tm_resume .resume_title span:before{
 	position: absolute;
 	content: "";
 	width: 1000px;
 	height: 1px;
-	background-color: #7E7E7E;
+	background-color: #eb0fc6;
 	top: 50%;
 	transform: translateY(-50%);
 	left: 100%;
 	margin-left: 20px;
 }
+
 .tokyo_progress{
 	width: 100%;
 	height: auto;
@@ -221,7 +253,7 @@
 	opacity: 0;
 	transform: translateY(10px);
 	display: block;
-	color: #0F172A;
+	color: #fff;
 	font-family: "Poppins";
 	font-size: 16px;
 	font-weight: 400;
@@ -277,42 +309,94 @@
 @-moz-keyframes wow {0%{ width:0%; } 100%{ width:100%; }}
 @keyframes wow {0%{ width:0%; } 100%{ width:100%; }}
 
-.beny_tm_resume .education{
+.towhid_tm_resume .education{
 	width: 50%;
 	padding-left: 125px;
 }
-.beny_tm_resume .edu_list{
+.towhid_tm_resume .edu_list{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 	padding-top: 50px;
+	
 }
 
+.towhid_tm_resume .edu_list .year{
+	color: yellow;
+}
+
+.skillbar {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.skillbar-bar:before {
+    background: #eee;
+    content: "";
+    height: 3px;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+.skillbar-bar {
+    height: 3px;
+    width: 0px;
+    background: #face0b;
+    transition-property: width, background-color;
+}
+
+.skillbar-title {
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.skill-bar-percent {
+    float: right;
+    display: inline-block;
+    color: #f8f8f8;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+
+
 /*---------------------------------------------------*/
-/*	14) BENY MEDIA QUERIES (FOR SMALL DEVIVES)
+/*	14) towhid MEDIA QUERIES (FOR SMALL DEVIVES)
 /*---------------------------------------------------*/
 
 
 @media (max-width: 1040px) {
 	body{font-size: 16px;}
-	.beny_tm_topbar{display: none;}
-	.beny_tm_mobile_menu{display: block;}
-	.beny_tm_hero .content .job{font-size: 60px;}
-	.beny_tm_hero .social{display: none;}
-	.beny_tm_hero .mobile_social{display: block;}
-	.beny_tm_hero .content .text{margin-bottom: 25px;}
-	.beny_tm_button a{font-size: 16px;padding: 11px 30px;}
-	.beny_tm_title_holder h3{font-size: 50px;}
-	.beny_tm_about .about_inner{flex-direction: column;align-items: baseline;}
-	.beny_tm_about .about_inner .left{width: 100%;padding: 0px;margin-bottom: 50px;}
-	.beny_tm_about .about_inner .right{width: 100%;padding: 0px;}
+	.towhid_tm_topbar{display: none;}
+	.towhid_tm_mobile_menu{display: block;}
+	.towhid_tm_hero .content .job{font-size: 60px;}
+	.towhid_tm_hero .social{display: none;}
+	.towhid_tm_hero .mobile_social{display: block;}
+	.towhid_tm_hero .content .text{margin-bottom: 25px;}
+	.towhid_tm_button a{font-size: 16px;padding: 11px 30px;}
+	.towhid_tm_title_holder h3{font-size: 50px;}
+	.towhid_tm_about .about_inner{flex-direction: column;align-items: baseline;}
+	.towhid_tm_about .about_inner .left{width: 100%;padding: 0px;margin-bottom: 50px;}
+	.towhid_tm_about .about_inner .right{width: 100%;padding: 0px;}
+    .towhid_tm_resume .resume_inner{flex-direction: column;align-items: baseline;}
+	.towhid_tm_resume .resume_inner .skills{width: 100%;padding: 0px;margin-bottom: 75px;}
+	.towhid_tm_resume .education{width: 100%;padding: 0px;}
+	.towhid_tm_resume .resume_title span:before{display: none;}
 
 }
 @media (max-width: 768px) {
-	.beny_tm_hero .content .job{font-size: 35px;}
-	.beny_tm_title_holder h3{font-size: 30px;}
-	.beny_tm_about .list ul{margin: 0px;}
-	.beny_tm_about .list ul li{width: 100%;padding-left: 0px;}
+	.towhid_tm_hero .content .job{font-size: 35px;}
+	.towhid_tm_title_holder h3{font-size: 30px;}
+	.towhid_tm_about .list ul{margin: 0px;}
+	.towhid_tm_about .list ul li{width: 100%;padding-left: 0px;}
 
 }

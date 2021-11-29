@@ -7,6 +7,7 @@ const Home = () => {
         <>
             <div className="overflow-hidden">
                 <Banner />
+
                 <About />
             </div>
         </>

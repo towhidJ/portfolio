@@ -5,7 +5,7 @@ import "./Header.css";
 const Header = () => {
     return (
         <div>
-            <nav className="navbar px-3 py-0 navbar-expand-lg header ">
+            <nav className="navbar px-3 py-0 navbar-expand-lg header fixed">
                 <div className="container-fluid">
                     <Link to="/" className="navbar-brand">
                         <h1 className="logo">Ti</h1>

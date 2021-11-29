@@ -1,10 +1,12 @@
+import Slide from "react-reveal/Slide";
 import "./About.css";
+
 const About = () => {
     return (
         <>
-            <div className=" beny_tm_about">
+            <div className=" towhid_tm_about">
                 <div className="container ">
-                    <div class="beny_tm_title_holder">
+                    <div className="towhid_tm_title_holder">
                         <span>About Me</span>
                         <h3>About Me</h3>
                         <p>
@@ -19,7 +21,7 @@ const About = () => {
                             <img src="" alt="" />
                         </div>
                         <div className="right">
-                            <div className="float-start">
+                            <div className="short">
                                 <h3>Hi There!</h3>
                                 <p>
                                     I'm a Monalisa hug web designer &amp;
@@ -29,41 +31,42 @@ const About = () => {
                                     that improves the lives of those around me.
                                 </p>
                             </div>
-                            <div className="float-end">
-                                <h3 class="title">Personal Infos</h3>
-                                <div class="list">
+                            <div className="extra">
+                                <h3 className="title">Personal Infos</h3>
+                                <div className="list">
                                     <ul>
                                         <li>
                                             <p>
-                                                <span>Name :</span> Beny
+                                                <span>Name :</span> Towhidul
+                                                Islam
                                             </p>
                                         </li>
                                         <li>
                                             <p>
-                                                <span>Address :</span> N-400 -
-                                                Path2UK
+                                                <span>Address :</span>{" "}
+                                                Chittagong
                                             </p>
                                         </li>
                                         <li>
                                             <p>
-                                                <span>Age :</span> 27 Years
+                                                <span>Age :</span> 00 Years
                                             </p>
                                         </li>
                                         <li>
                                             <p>
                                                 <span>Phone :</span>{" "}
-                                                +71621484010
+                                                +8801521401825
                                             </p>
                                         </li>
                                         <li>
                                             <p>
-                                                <span>Nationality :</span> UK
+                                                <span>Nationality :</span> BD
                                             </p>
                                         </li>
                                         <li>
                                             <p>
                                                 <span>Email :</span>{" "}
-                                                mail@gmail.com
+                                                towhidulislamcse@gmail.com
                                             </p>
                                         </li>
                                         <li>
@@ -74,24 +77,178 @@ const About = () => {
                                         </li>
                                         <li>
                                             <p>
-                                                <span>Languages :</span> French,
+                                                <span>Languages :</span> Bangla,
                                                 English
                                             </p>
                                         </li>
                                     </ul>
                                 </div>
-                                <div class="beny_tm_button color">
+                                <div className=" color">
                                     <a href="img/about/1.jpg" download>
-                                        <span class="wrapper">
-                                            <span class="first">
-                                                Download CV
-                                            </span>
-                                            <span class="second">
-                                                Download CV
-                                            </span>
-                                        </span>
+                                        <button className="ms-2 towhid_btn btn">
+                                            Download Cv
+                                        </button>
                                     </a>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="towhid_tm_resume">
+                        <div className="main_title">
+                            <h3>Skill &amp; Education</h3>
+                        </div>
+                        <div className="resume_inner">
+                            <div
+                                className="skills wow fadeInLeft"
+                                data-wow-duration="1.2s"
+                            >
+                                <div className="resume_title">
+                                    <img
+                                        className="svg"
+                                        src="img/svg/briefcase.svg"
+                                        alt=""
+                                    />
+                                    <span>Skills</span>
+                                </div>
+                                <Slide left>
+                                    <div className="tokyo_progress">
+                                        <div className="progress_inner">
+                                            <div className="wrapper">
+                                                <div className="container">
+                                                    <div className="row">
+                                                        <div className="col-md-12">
+                                                            <div
+                                                                className="skillbar"
+                                                                data-percent="55%"
+                                                            >
+                                                                <div className="skillbar-title">
+                                                                    Web design
+                                                                </div>
+                                                                <div className="skill-bar-percent">
+                                                                    80%
+                                                                </div>
+                                                                <div
+                                                                    className="skillbar-bar"
+                                                                    style={{
+                                                                        width: "80%",
+                                                                    }}
+                                                                ></div>
+                                                            </div>
+
+                                                            <div
+                                                                className="skillbar"
+                                                                data-percent="80%"
+                                                            >
+                                                                <div className="skillbar-title">
+                                                                    ReactJS
+                                                                </div>
+                                                                <div className="skill-bar-percent">
+                                                                    85%
+                                                                </div>
+                                                                <div
+                                                                    className="skillbar-bar"
+                                                                    style={{
+                                                                        width: "85%",
+                                                                    }}
+                                                                ></div>
+                                                            </div>
+
+                                                            <div
+                                                                className="skillbar"
+                                                                data-percent="40%"
+                                                            >
+                                                                <div className="skillbar-title">
+                                                                    Web
+                                                                    Development
+                                                                </div>
+                                                                <div className="skill-bar-percent">
+                                                                    80%
+                                                                </div>
+                                                                <div
+                                                                    className="skillbar-bar"
+                                                                    style={{
+                                                                        width: "80%",
+                                                                    }}
+                                                                ></div>
+                                                            </div>
+
+                                                            <div
+                                                                className="skillbar"
+                                                                data-percent="70%"
+                                                            >
+                                                                <div className="skillbar-title">
+                                                                    ASP.NET
+                                                                </div>
+                                                                <div className="skill-bar-percent">
+                                                                    90%
+                                                                </div>
+                                                                <div
+                                                                    className="skillbar-bar"
+                                                                    style={{
+                                                                        width: "90%",
+                                                                    }}
+                                                                ></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </Slide>
+                            </div>
+
+                            <div
+                                className="education  "
+                                data-wow-duration="1.2s"
+                                data-wow-delay="0.3s"
+                            >
+                                <div className="resume_title">
+                                    <img
+                                        className="svg"
+                                        src="img/svg/award.svg"
+                                        alt=""
+                                    />
+                                    <span>Education</span>
+                                </div>
+                                <Slide right>
+                                    <div className="edu_list">
+                                        <ul>
+                                            <li>
+                                                <p>
+                                                    <span>BSc In CSE</span> -
+                                                    BGC Trust University
+                                                    Bangladesh
+                                                </p>
+                                                <span className="year">
+                                                    2017-2021
+                                                </span>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    <span>HSC</span> - Islamia
+                                                    Collage Chittagong
+                                                </p>
+                                                <span className="year">
+                                                    2014-2016
+                                                </span>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    <span>
+                                                        ASP.NET Web Development
+                                                        Course
+                                                    </span>{" "}
+                                                    - BASIS BITM
+                                                </p>
+                                                <span className="year">
+                                                    2019-2019
+                                                </span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </Slide>
                             </div>
                         </div>
                     </div>

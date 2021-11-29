@@ -11,7 +11,13 @@
 .header{
     background-color: rgb(0, 0, 0);
 }
-
+.logo{
+    font-family: 'Nosifer', cursive;
+    padding-top:10px;
+    /* font-family: 'Berkshire Swash', cursive; */
+    font-size: 40px;
+    color: #f3dc09;
+  }
 .resume{
     background-color: #39889c;
     border: 1px solid #c3e4e4;
@@ -22,7 +28,14 @@
     background-color: darkslategray;
 }
 .mobile-expand-menu{
-    background-color: darkslategray !important;
-    font-size: 31px;
+    background-color: rgb(235, 255, 51) !important;
+    font-size: 20px;
 }
+
+@media (max-width:768px) {
+    .logo{
+      font-size: 20px;
+  
+    }
+  }
 

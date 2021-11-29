@@ -14,9 +14,11 @@ body {
 font-family: 'Graduate', cursive;
 font-family: 'Ubuntu', sans-serif; */
 .logo{
-  font-family: 'Berkshire Swash', cursive;
+  font-family: 'Nosifer', cursive;
+  padding-top:10px;
+  /* font-family: 'Berkshire Swash', cursive; */
   font-size: 41px;
-  color: #09b5b5;
+  color: #09e3f3;
 }
 
 code {

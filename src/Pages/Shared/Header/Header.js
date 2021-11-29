@@ -8,7 +8,7 @@ const Header = () => {
             <nav className="navbar px-3 py-0 navbar-expand-lg header fixed-top">
                 <div className="container-fluid">
                     <Link to="/" className="navbar-brand">
-                        <h1 className="logo">Ti</h1>
+                        <h1 className="logo">Towhid</h1>
                     </Link>
                     <button
                         className="navbar-toggler mobile-expand-menu"

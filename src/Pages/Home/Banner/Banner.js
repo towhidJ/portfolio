@@ -9,7 +9,7 @@ const Banner = () => {
     return (
         <div className="p-5 row justify-content-evenly align-items-center overflow-hidden">
             <Bounce left>
-                <div className="col-md-5 banner-text">
+                <div className="col-12 col-md-5 banner-text">
                     <h4 className="mb-0">Hello! I'm</h4>
                     <h5>Towhidul Islam</h5>
                     <h3>
@@ -64,7 +64,7 @@ const Banner = () => {
             </Bounce>
 
             <Slide bottom>
-                <div className="col-md-7 banner-image">
+                <div className="col-12 col-md-7 banner-image my-3 my-md-0 ">
                     <img className="img-fluid" src={towhid} alt="" />
                 </div>
             </Slide>

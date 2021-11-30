@@ -19,91 +19,101 @@ const About = () => {
                     </div>
 
                     <div className="about_inner">
-                        <div className="left border-1 border-blue">
-                            <img className="img-fluid " src={towhid} alt="a" />
-                        </div>
-                        <div className="right">
-                            <div className="short">
-                                <h3>Hi There! ✋✋</h3>
-                                <p>
-                                    This is Towhidul Islam.I'm Jr. Web
-                                    Developer.I have knowledge of JavaScript,
-                                    ES6, React.JS, Node.JS,ASP.NET,ASP.NET
-                                    Core,MSSQL Mongo Db, HTML, CSS, Bootstrap,
-                                    Firebase, Heroku, and Netlify. I also have
-                                    knowledge of Communication and Quick
-                                    Learning Skills. When I was learning web
-                                    development I always tried to do those
-                                    things carefully. If I have made any mistake
-                                    in any project I solve it easily because I
-                                    have the Patience and problem-solving
-                                    experience.
-                                </p>
+                        <Slide left>
+                            <div className="left border-1 border-blue">
+                                <img
+                                    className="img-fluid "
+                                    src={towhid}
+                                    alt="a"
+                                />
                             </div>
-                            <div className="extra">
-                                <h3 className="title">Personal Infos</h3>
-                                <div className="list">
-                                    <ul>
-                                        <li>
-                                            <p>
-                                                <span>Name :</span> Towhidul
-                                                Islam
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p>
-                                                <span>Address :</span>{" "}
-                                                Chittagong
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p>
-                                                <span>Age :</span> 00 Years
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p>
-                                                <span>Phone :</span>{" "}
-                                                +8801521401825
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p>
-                                                <span>Nationality :</span> BD
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p>
-                                                <span>Email :</span>{" "}
-                                                towhidulislamcse@gmail.com
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p>
-                                                <span>Freelance :</span>{" "}
-                                                Available
-                                            </p>
-                                        </li>
-                                        <li>
-                                            <p>
-                                                <span>Languages :</span> Bangla,
-                                                English
-                                            </p>
-                                        </li>
-                                    </ul>
+                        </Slide>
+                        <Slide right>
+                            <div className="right">
+                                <div className="short">
+                                    <h3>Hi There! ✋✋</h3>
+                                    <p>
+                                        This is Towhidul Islam.I'm Jr. Web
+                                        Developer.I have knowledge of
+                                        JavaScript, ES6, React.JS,
+                                        Node.JS,ASP.NET,ASP.NET Core,MSSQL Mongo
+                                        Db, HTML, CSS, Bootstrap, Firebase,
+                                        Heroku, and Netlify. I also have
+                                        knowledge of Communication and Quick
+                                        Learning Skills. When I was learning web
+                                        development I always tried to do those
+                                        things carefully. If I have made any
+                                        mistake in any project I solve it easily
+                                        because I have the Patience and
+                                        problem-solving experience.
+                                    </p>
                                 </div>
-                                <div className=" color">
-                                    <a
-                                        href="https://drive.google.com/u/2/uc?id=18QQL47b662IUSwf-DpkFcv_7n9qccqcj&export=download"
-                                        download
-                                    >
-                                        <button className="ms-2 towhid_btn btn">
-                                            Download Cv
-                                        </button>
-                                    </a>
+                                <div className="extra">
+                                    <h3 className="title">Personal Infos</h3>
+                                    <div className="list">
+                                        <ul>
+                                            <li>
+                                                <p>
+                                                    <span>Name :</span> Towhidul
+                                                    Islam
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    <span>Address :</span>{" "}
+                                                    Chittagong
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    <span>Age :</span> 00 Years
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    <span>Phone :</span>{" "}
+                                                    +8801521401825
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    <span>Nationality :</span>{" "}
+                                                    BD
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    <span>Email :</span>{" "}
+                                                    towhidulislamcse@gmail.com
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    <span>Freelance :</span>{" "}
+                                                    Available
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    <span>Languages :</span>{" "}
+                                                    Bangla, English
+                                                </p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div className=" color">
+                                        <a
+                                            href="https://drive.google.com/u/2/uc?id=18QQL47b662IUSwf-DpkFcv_7n9qccqcj&export=download"
+                                            download
+                                        >
+                                            <button className="ms-2 towhid_btn btn">
+                                                Download Cv
+                                            </button>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        </Slide>
                     </div>
 
                     <div className="towhid_tm_resume">

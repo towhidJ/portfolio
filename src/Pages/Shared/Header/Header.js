@@ -48,6 +48,11 @@ const Header = () => {
                                         Projects
                                     </Link>
                                 </li>
+                                <li className="nav-item">
+                                    <Link to="/blogs" className="nav-link">
+                                        Blogs
+                                    </Link>
+                                </li>
 
                                 <li className="nav-item">
                                     <a href="#education" className="nav-link">

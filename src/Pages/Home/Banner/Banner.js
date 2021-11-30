@@ -31,9 +31,9 @@ const Banner = () => {
                         deep interest in Javascript. and knowing some frameworks
                         for the Front-End and the Backend. I am good at
                         Javascript, ES6, React, REST API, React
-                        Bootstrap,ASP.NET,MSSQL, Bootstrap4, HTML5, CSS3. and
-                        Comfortable with Material UI,Node.js, Express.js,
-                        MongoDB, JSON.
+                        Bootstrap,ASP.NET,ASP.NET Core ,MSSQL-2017, Bootstrap5,
+                        HTML5, CSS3. and Comfortable with Material UI,Node.js,
+                        Express.js, MongoDB, JSON.
                     </p>
 
                     <div className="social-icon">

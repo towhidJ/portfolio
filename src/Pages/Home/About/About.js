@@ -26,17 +26,18 @@ const About = () => {
                             <div className="short">
                                 <h3>Hi There! ✋✋</h3>
                                 <p>
-                                    This is Towhidul Islam.I'm Jr. Front End
+                                    This is Towhidul Islam.I'm Jr. Web
                                     Developer.I have knowledge of JavaScript,
-                                    ES6, React.JS, Node.JS,ASP.NET,MSSQL Mongo
-                                    Db, HTML, CSS, Bootstrap, Firebase, Heroku,
-                                    and Netlify. I also have knowledge of
-                                    Communication and Quick Learning Skills.
-                                    When I was learning web development I always
-                                    tried to do those things carefully. If I
-                                    have made any mistake in any project I solve
-                                    it easily because I have the Patience and
-                                    problem-solving experience.
+                                    ES6, React.JS, Node.JS,ASP.NET,ASP.NET
+                                    Core,MSSQL Mongo Db, HTML, CSS, Bootstrap,
+                                    Firebase, Heroku, and Netlify. I also have
+                                    knowledge of Communication and Quick
+                                    Learning Skills. When I was learning web
+                                    development I always tried to do those
+                                    things carefully. If I have made any mistake
+                                    in any project I solve it easily because I
+                                    have the Patience and problem-solving
+                                    experience.
                                 </p>
                             </div>
                             <div className="extra">
@@ -134,15 +135,15 @@ const About = () => {
                                                                 data-percent="55%"
                                                             >
                                                                 <div className="skillbar-title">
-                                                                    Web design
+                                                                    JavaScript
                                                                 </div>
                                                                 <div className="skill-bar-percent">
-                                                                    80%
+                                                                    85%
                                                                 </div>
                                                                 <div
                                                                     className="skillbar-bar"
                                                                     style={{
-                                                                        width: "80%",
+                                                                        width: "85%",
                                                                     }}
                                                                 ></div>
                                                             </div>
@@ -183,7 +184,25 @@ const About = () => {
                                                                     }}
                                                                 ></div>
                                                             </div>
-
+                                                            <div
+                                                                className="skillbar"
+                                                                data-percent="40%"
+                                                            >
+                                                                <div className="skillbar-title">
+                                                                    C#
+                                                                </div>
+                                                                <div className="skill-bar-percent">
+                                                                    90%
+                                                                </div>
+                                                                <div
+                                                                    className="skillbar-bar"
+                                                                    style={{
+                                                                        width: "90%",
+                                                                        backgroundColor:
+                                                                            "green",
+                                                                    }}
+                                                                ></div>
+                                                            </div>
                                                             <div
                                                                 className="skillbar"
                                                                 data-percent="70%"
@@ -198,6 +217,8 @@ const About = () => {
                                                                     className="skillbar-bar"
                                                                     style={{
                                                                         width: "90%",
+                                                                        backgroundColor:
+                                                                            "green",
                                                                     }}
                                                                 ></div>
                                                             </div>

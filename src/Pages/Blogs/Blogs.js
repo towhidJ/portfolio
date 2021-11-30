@@ -8,7 +8,7 @@ const Blogs = () => {
                 <div class="">
                     <div class="towhid_tm_title_holder py-5">
                         <span className="mt-5">Blog</span>
-                        <h3>My Blog</h3>
+                        <h3>Recent Blogs</h3>
                     </div>
                     <div className="container mx-auto mt-4 row ">
                         <Blog />
